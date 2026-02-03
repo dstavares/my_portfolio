@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniel Tavares - DevOps/SRE</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+    <!-- Header e Navegação -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">Daniel<span>Tavares</span></div>
+                <div class="menu-toggle" id="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#skills">Habilidades</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="fade-in">
+                <h1>Daniel Tavares</h1>
+                <p>SRE/DevOps com expertise em infraestrutura como código, cloud computing e automação de processos. Transformando a maneira como as empresas constroem, implantam e escalam aplicações.</p>
+                <div class="hero-btns">
+                    <a href="#contact" class="btn">Entre em Contato</a>
+                    <a href="#skills" class="btn">Ver Habilidades</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre -->
+    <section id="about">
+        <div class="container">
+            <h2>Sobre Mim</h2>
+            <div class="about-content">
+                <div class="about-img fade-in">
+                    <!-- Imagem de placeholder - você pode substituir por sua foto -->
+                    <!--<img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80" alt="Daniel Tavares">-->
+                    <img src="images/mypic.jpg" alt="Daniel Tavares">
+                </div>
+                <div class="about-text fade-in">
+                    <h3>Especialista em Infraestrutura e Automação</h3>
+                    <p>Olá! Sou Daniel Tavares, um profissional de SRE/DevOps apaixonado por criar infraestruturas escaláveis, resilientes e eficientes. Com mais de 5 anos de experiência na área, tenho trabalhado com empresas de diversos setores para melhorar seus processos de desenvolvimento e operações.</p>
+                    <p>Minha abordagem combina práticas de Site Reliability Engineering (SRE) com metodologias DevOps para garantir que os sistemas sejam não apenas funcionais, mas também confiáveis e fáceis de manter.</p>
+                    <p>Estou sempre em busca de novos desafios e oportunidades para aplicar minhas habilidades em automação, monitoramento e gestão de infraestrutura em nuvem.</p>
+                    <a href="#contact" class="btn">Vamos Conversar</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Habilidades -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <h2>Habilidades & Tecnologias</h2>
+            <div class="skills-container">
+                <div class="skill-card fade-in">
+                    <div class="skill-icon">
+                        <i class="fab fa-aws"></i>
+                    </div>
+                    <h3>AWS Cloud</h3>
+                    <p>Experiência com EC2, S3, RDS, Lambda, CloudFormation, VPC, IAM e outros serviços da AWS para construção de arquiteturas escaláveis.</p>
+                </div>
+                
+                <div class="skill-card fade-in">
+                    <div class="skill-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3>Microsoft Azure</h3>
+                    <p>Conhecimento em serviços de computação, armazenamento e redes do Azure para soluções híbridas e multi-cloud.</p>
+                </div>
+                
+                <div class="skill-card fade-in">
+                    <div class="skill-icon">
+                        <i class="fas fa-code-branch"></i>
+                    </div>
+                    <h3>Terraform</h3>
+                    <p>Infraestrutura como código (IaC) para provisionamento e gerenciamento de recursos em múltiplos provedores de cloud.</p>
+                </div>
+                
+                <div class="skill-card fade-in">
+                    <div class="skill-icon">
+                        <i class="fab fa-github"></i>
+                    </div>
+                    <h3>Git & GitHub</h3>
+                    <p>Versionamento de código, Git workflows, GitHub Actions para CI/CD e práticas de GitOps para automação de deployment.</p>
+                </div>
+                
+                <div class="skill-card fade-in">
+                    <div class="skill-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3>Kubernetes & Docker</h3>
+                    <p>Orquestração de containers, gestão de clusters, deploy de aplicações em containers e gestão de imagens Docker.</p>
+                </div>
+                
+                <div class="skill-card fade-in">
+                    <div class="skill-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>Automação & CI/CD</h3>
+                    <p>Jenkins, GitLab CI, Ansible, Puppet e outras ferramentas para automação de processos de build, teste e deployment.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contact">
+        <div class="container">
+            <h2>Entre em Contato</h2>
+            <div class="contact-form fade-in">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Nome</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Assunto</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensagem</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Enviar Mensagem</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Daniel Tavares</h3>
+                    <p>Especialista em SRE/DevOps com foco em infraestrutura como código, automação e cloud computing.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Contato</h3>
+                    <p>Email: danielhelpdesk@gmail.com</p>
+                    <p>Telefone: (81) 99462-6293</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Redes Sociais</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; <span id="currentYear"></span> Daniel Tavares. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
